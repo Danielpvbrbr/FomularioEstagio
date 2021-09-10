@@ -1,38 +1,27 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
-  },
+  "name": "form1",
+  "version": "1.0.0",
+  "description": "Projeto formulario para avalição de Estagio de programação",
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "Daniel do Nascimento santos",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel-loader": "^8.0.5",
+    "bootstrap": "^3.4.1",
+    "date-fns": "^2.23.0",
+    "react": "^16.2.0",
+    "react-bootstrap": "^2.0.0-beta.6",
+    "react-dom": "^16.2.0",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^1.1.5",
+    "yarn": "^1.22.10"
   }
 }
